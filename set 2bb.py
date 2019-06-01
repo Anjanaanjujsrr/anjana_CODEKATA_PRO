@@ -1,7 +1,7 @@
 #anju
-a,k=map(int,raw_input().split())
-lis=list(map(int,raw_input().split()))
+n,k=map(int,input().split())
+l=list(map(int,input().split()))
 for i in range(k):
-	u,v=map(int,raw_input().split())
+	u,v=map(int,input().split())
 	c=l[u-1:v]
 	print(sum(c))
