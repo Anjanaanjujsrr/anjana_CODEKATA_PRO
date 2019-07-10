@@ -1,7 +1,7 @@
 #anju
-from collections import Count
-cop=input()
-if(Count(cop)==Count("dhoni")):
-  print("yes",end="")
+a=['d','h','i','n','o']
+s=sorted(list(input()))
+if a==s:
+    print("yes")
 else:
-  print("no",end="")
+    print("no")
