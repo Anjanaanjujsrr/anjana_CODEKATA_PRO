@@ -1,4 +1,4 @@
-AAA,BBA=map(int,input().split())
+AAA,BBB=map(int,input().split())
 CCC=list(map(int,input().split()))
 pp=list(map(int,input().split()))
 qq=[]
