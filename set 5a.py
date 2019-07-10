@@ -14,7 +14,7 @@ else:
     for i in range(0,aaa+bbb):
         if(i==uu1):
             ss2=ss2+'0'
-            if(uu1==bb1):
+            if(uu1==bbb):
                 uu1=uu1+2
             else:
                 uu1=uu1+3
