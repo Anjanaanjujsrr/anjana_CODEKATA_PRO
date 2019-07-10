@@ -1,17 +1,17 @@
-A,B=map(int,input().split())
-C=list(map(int,input().split()))
-P=list(map(int,input().split()))
-Q=[]
-r=0
-for i in range(A):
-    x=P[i]/C[i]
-    Q.append(x)
-while B>=0 and len(Q)>0:
-    mindex=Q.index(max(Q))
-    if B>=C[mindex]:
-        r=r+p[mindex]
-        B=B-C[mindex]
-    C.pop(mindex)
-    P.pop(mindex)
-    Q.pop(mindex)
-print(r)
+AAA,BBA=map(int,input().split())
+CCC=list(map(int,input().split()))
+pp=list(map(int,input().split()))
+qq=[]
+rr=0
+for i in range(AAA):
+    x=pp[i]/CCC[i]
+    qq.append(x)
+while BBB>=0 and len(qq)>0:
+    mindex=qq.index(max(qq))
+    if BBB>=CCC[mindex]:
+        rr=rr+pp[mindex]
+        BBB=BBB-CCC[mindex]
+    CCC.pop(mindex)
+    pp.pop(mindex)
+    qq.pop(mindex)
+print(rr)
