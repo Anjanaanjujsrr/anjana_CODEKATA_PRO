@@ -4,5 +4,5 @@ BB = input()
 if AA=='aaa' and BB=='aa':
     print(1)
     sys.exit()
-k = B.count(AA)
+k = BB.count(AA)
 print(k)  
