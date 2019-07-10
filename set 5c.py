@@ -9,7 +9,7 @@ for i in a1:
 kh = 0
 for i in range(0,t1-1):
   p = a1[i]
-  for j in range(i+1,th):
+  for j in range(i+1,t1):
     if p == a1[j]:
       if p < b1[kh]:
         a1[j] = b1[kh]
